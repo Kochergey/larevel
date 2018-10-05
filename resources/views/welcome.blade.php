@@ -28,15 +28,15 @@
                 <div class="header-top-left">
                     <ul>
                         <li><a href="{{asset('account.html')}}"><span class="glyphicon glyphicon-user"> </span>Login</a></li>
-                        <li><a href="register.html"><span class="glyphicon glyphicon-lock"> </span>Create an Account</a></li>           
+                        <li><a href="{{asset('register.html')}}"><span class="glyphicon glyphicon-lock"> </span>Create an Account</a></li>           
                     </ul>
                 </div>
                 <div class="header-right">
                         <div class="cart box_1">
-                            <a href="checkout.html">
+                            <a href= "{{asset('checkout.html')}}">
                                 <h3> <span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>)<img src="images/bag.png" alt=""></h3>
                             </a>    
-                            <p><a href="javascript:;" class="simpleCart_empty">Empty cart</a></p>
+                            <p><a href="{{asset('javascript:;')}}" class="simpleCart_empty">Empty cart</a></p>
                             <div class="clearfix"> </div>
                         </div>
                 </div>
@@ -56,16 +56,16 @@
                 <span class="icon-bar"></span>
             </button>
                 <div class="logo">
-                    <h1><a href="index.html"><span>E</span> -Shop</a></h1>
+                    <h1><a href="{{asset('index.html')}}"><span>E</span> -Shop</a></h1>
                 </div>
         </div>
         <!--/.navbar-header-->
     
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{asset('index.html')}}">Home</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
+                    <a href="{{asset('#')}}" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
                     <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
                             <div class="col-sm-4">
