@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>E Shop | Home</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="{{asset('css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
@@ -18,7 +18,7 @@
 <!-- cart -->
     <script src="js/simpleCart.min.js"> </script>
 <!-- cart -->
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" />
 </head>
 <body>
     <!-- header-section-starts -->
@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="header-top-left">
                     <ul>
-                        <li><a href="account.html"><span class="glyphicon glyphicon-user"> </span>Login</a></li>
+                        <li><a href="{{asset('account.html')}}"><span class="glyphicon glyphicon-user"> </span>Login</a></li>
                         <li><a href="register.html"><span class="glyphicon glyphicon-lock"> </span>Create an Account</a></li>           
                     </ul>
                 </div>
