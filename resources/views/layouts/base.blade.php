@@ -273,17 +273,17 @@
                 <div class="col-md-3 span1_of_4">
                     <h4>popular</h4>
                     <ul class="f_nav">
-                        <li><a href="#">new arrivals</a></li>
-                        <li><a href="#">men</a></li>
-                        <li><a href="#">women</a></li>
-                        <li><a href="#">accessories</a></li>
-                        <li><a href="#">kids</a></li>
-                        <li><a href="#">brands</a></li>
-                        <li><a href="#">trends</a></li>
-                        <li><a href="#">sale</a></li>
-                        <li><a href="#">style videos</a></li>
-                        <li><a href="#">login</a></li>
-                        <li><a href="#">brands</a></li>
+                        <li><a href="{{asset('#')}}">new arrivals</a></li>
+                        <li><a href="{{asset('#')}}">men</a></li>
+                        <li><a href="{{asset('#')}}">women</a></li>
+                        <li><a href="{{asset('#')}}">accessories</a></li>
+                        <li><a href="{{asset('#')}}">kids</a></li>
+                        <li><a href="{{asset('#')}}">brands</a></li>
+                        <li><a href="{{asset('#')}}">trends</a></li>
+                        <li><a href="{{asset('#')}}">sale</a></li>
+                        <li><a href="{{asset('#')}}">style videos</a></li>
+                        <li><a href="{{asset('#')}}">login</a></li>
+                        <li><a href="{{asset('#')}}">brands</a></li>
                     </ul>           
                 </div>
                 <div class="clearfix"></div>
