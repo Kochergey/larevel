@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
-    }
+         $this->call(ProductSeeder::class);
+
+    }  Product::create(['name'=>'Добро пожаловать'; 'bady'=>'Привет'; 'url'=>'index']);
 }
