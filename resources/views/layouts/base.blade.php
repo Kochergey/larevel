@@ -5,7 +5,7 @@
 <title>E Shop | Home</title> 
 
 
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="{{asset('css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
@@ -94,29 +94,29 @@
     
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{{asset('index.html')}}" >Home</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
+                    <a href="{{asset('#')}}" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
                     <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
                             <div class="col-sm-4">
                                 <ul class="multi-column-dropdown">
                                     <h6>NEW IN</h6>
-                                    <li><a href="products.html">New In Clothing</a></li>
-                                    <li><a href="products.html">New In Bags</a></li>
-                                    <li><a href="products.html">New In Shoes</a></li>
-                                    <li><a href="products.html">New In Watches</a></li>
-                                    <li><a href="products.html">New In Grooming</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Clothing</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Bags</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Shoes</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Watches</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Grooming</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="multi-column-dropdown">
                                     <h6>CLOTHING</h6>
-                                    <li><a href="products.html">Polos & Tees</a></li>
-                                    <li><a href="products.html">Casual Shirts</a></li>
-                                    <li><a href="products.html">Casual Trousers</a></li>
-                                    <li><a href="products.html">Jeans</a></li>
-                                    <li><a href="products.html">Shorts & 3/4th</a></li>
+                                    <li><a href="{{asset('products.html')}}">Polos & Tees</a></li>
+                                    <li><a href="{{asset('products.html')}}">Casual Shirts</a></li>
+                                    <li><a href="{{asset('products.html')}}">Casual Trousers</a></li>
+                                    <li><a href="{{asset('products.html')}}">Jeans</a></li>
+                                    <li><a href="{{asset('products.html')}}">Shorts & 3/4th</a></li>
                                     <li><a href="products.html">Formal Shirts</a></li>
                                     <li><a href="products.html">Formal Trousers</a></li>
                                     <li><a href="products.html">Suits & Blazers</a></li>
