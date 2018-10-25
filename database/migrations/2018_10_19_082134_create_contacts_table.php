@@ -17,9 +17,7 @@ class CreateContactsTable extends Migration
             $table->increments('id');
              $table->string('name');
             $table->timestamps();
-             
-           
-            $table->text('body');
+             $table->text('body');
             $table->string('url');
             
             $table->integer('user_id');

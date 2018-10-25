@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
 @section('styles')
+<link href="{{asset('media/css/page.css')}}" rel="stylesheet" type="text/css" >
+<head>
+
 <title>E Shop | Home</title> 
 
 
@@ -44,7 +46,7 @@
                             </li>
                         @else
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="{{asset('#')}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
@@ -92,7 +94,7 @@
         </div>
         <!--/.navbar-header-->
     
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse" id="bs-exfample-navbar-collapse-1">
             <ul class="nav navbar-nav">
             <li><a href="{{asset('index.html')}}" >Home</a></li>
                 <li class="dropdown">
@@ -117,20 +119,20 @@
                                     <li><a href="{{asset('products.html')}}">Casual Trousers</a></li>
                                     <li><a href="{{asset('products.html')}}">Jeans</a></li>
                                     <li><a href="{{asset('products.html')}}">Shorts & 3/4th</a></li>
-                                    <li><a href="products.html">Formal Shirts</a></li>
-                                    <li><a href="products.html">Formal Trousers</a></li>
-                                    <li><a href="products.html">Suits & Blazers</a></li>
-                                    <li><a href="products.html">Track Wear</a></li>
-                                    <li><a href="products.html">Inner Wear</a></li>
+                                    <li><a href="{{asset('products.html')}}">Formal Shirts</a></li>
+                                    <li><a href="{{asset('products.html')}}">Formal Trousers</a></li>
+                                    <li><a href="{{asset('products.html')}}">Suits & Blazers</a></li>
+                                    <li><a href="{{asset('products.html')}}">Track Wear</a></li>
+                                    <li><a href="{{asset('products.html')}}">Inner Wear</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="multi-column-dropdown">
                                     <h6>WATCHES</h6>
-                                    <li><a href="products.html">Analog</a></li>
-                                    <li><a href="products.html">Chronograph</a></li>
-                                    <li><a href="products.html">Digital</a></li>
-                                    <li><a href="products.html">Watch Cases</a></li>
+                                    <li><a href="{{asset('products.html')}}">Analog</a></li>
+                                    <li><a href="{{asset('products.html')}}">Chronograph</a></li>
+                                    <li><a href="{{asset('products.html')}}">Digital</a></li>
+                                    <li><a href="{{asset('products.html')}}">Watch Cases</a></li>
                                 </ul>
                             </div>
                             <div class="clearfix"></div>
@@ -138,41 +140,41 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">women <b class="caret"></b></a>
+                    <a href="{{asset('#')}}" class="dropdown-toggle" data-toggle="dropdown">women <b class="caret"></b></a>
                     <ul class="dropdown-menu multi-column columns-3">
                         <div class="row">
                             <div class="col-sm-4">
                                 <ul class="multi-column-dropdown">
                                     <h6>NEW IN</h6>
-                                    <li><a href="products.html">New In Clothing</a></li>
-                                    <li><a href="products.html">New In Bags</a></li>
-                                    <li><a href="products.html">New In Shoes</a></li>
-                                    <li><a href="products.html">New In Watches</a></li>
-                                    <li><a href="products.html">New In Beauty</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Clothing</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Bags</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Shoes</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Watches</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Beauty</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="multi-column-dropdown">
                                     <h6>CLOTHING</h6>
-                                    <li><a href="products.html">Polos & Tees</a></li>
-                                    <li><a href="products.html">Casual Shirts</a></li>
-                                    <li><a href="products.html">Casual Trousers</a></li>
-                                    <li><a href="products.html">Jeans</a></li>
-                                    <li><a href="products.html">Shorts & 3/4th</a></li>
-                                    <li><a href="products.html">Formal Shirts</a></li>
-                                    <li><a href="products.html">Formal Trousers</a></li>
-                                    <li><a href="products.html">Suits & Blazers</a></li>
-                                    <li><a href="products.html">Track Wear</a></li>
-                                    <li><a href="products.html">Inner Wear</a></li>
+                                    <li><a href="{{asset('products.html')}}">Polos & Tees</a></li>
+                                    <li><a href="{{asset('products.html')}}">Casual Shirts</a></li>
+                                    <li><a href="{{asset('products.html')}}">Casual Trousers</a></li>
+                                    <li><a href="{{asset('products.html')}}">Jeans</a></li>
+                                    <li><a href="{{asset('products.html')}}">Shorts & 3/4th</a></li>
+                                    <li><a href="{{asset('products.html')}}">Formal Shirts</a></li>
+                                    <li><a href="{{asset('products.html')}}">Formal Trousers</a></li>
+                                    <li><a href="{{asset('products.html')}}">Suits & Blazers</a></li>
+                                    <li><a href="{{asset('products.html')}}">Track Wear</a></li>
+                                    <li><a href="{{asset('products.html')}}">Inner Wear</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-4">
                                 <ul class="multi-column-dropdown">
                                     <h6>WATCHES</h6>
-                                    <li><a href="products.html">Analog</a></li>
-                                    <li><a href="products.html">Chronograph</a></li>
-                                    <li><a href="products.html">Digital</a></li>
-                                    <li><a href="products.html">Watch Cases</a></li>
+                                    <li><a href="{{asset('products.html')}}">Analog</a></li>
+                                    <li><a href="{{asset('products.html')}}">Chronograph</a></li>
+                                    <li><a href="{{asset('products.html')}}">Digital</a></li>
+                                    <li><a href="{{asset('products.html')}}">Watch Cases</a></li>
                                 </ul>
                             </div>
                             <div class="clearfix"></div>
@@ -186,27 +188,27 @@
                             <div class="col-sm-6">
                                 <ul class="multi-column-dropdown">
                                     <h6>NEW IN</h6>
-                                    <li><a href="products.html">New In Boys Clothing</a></li>
-                                    <li><a href="products.html">New In Girls Clothing</a></li>
-                                    <li><a href="products.html">New In Boys Shoes</a></li>
-                                    <li><a href="products.html">New In Girls Shoes</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Boys Clothing</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Girls Clothing</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Boys Shoes</a></li>
+                                    <li><a href="{{asset('products.html')}}">New In Girls Shoes</a></li>
                                 </ul>
                             </div>
                             <div class="col-sm-6">
                                  <ul class="multi-column-dropdown">
                                     <h6>ACCESSORIES</h6>
-                                    <li><a href="products.html">Bags</a></li>
-                                    <li><a href="products.html">Watches</a></li>
-                                    <li><a href="products.html">Sun Glasses</a></li>
-                                    <li><a href="products.html">Jewellery</a></li>
+                                    <li><a href="{{asset('products.html')}}">Bags</a></li>
+                                    <li><a href="{{asset('products.html')}}">Watches</a></li>
+                                    <li><a href="{{asset('products.html')}}">Sun Glasses</a></li>
+                                    <li><a href="{{asset('products.html')}}">Jewellery</a></li>
                                 </ul>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                     </ul>
                 </li>
-                    <li><a href="typography.html">TYPO</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="{{asset('typography.html')}}">TYPO</a></li>
+                    <li><a href="{{'asset/contact'}}">CONTACT</a></li>
             </ul>
         </div>
         <!--/.navbar-collapse-->
@@ -237,53 +239,53 @@
                 <div class="col-md-3 span1_of_4">
                     <h4>Shop</h4>
                     <ul class="f_nav">
-                        <li><a href="#">new arrivals</a></li>
-                        <li><a href="#">men</a></li>
-                        <li><a href="#">women</a></li>
-                        <li><a href="#">accessories</a></li>
-                        <li><a href="#">kids</a></li>
-                        <li><a href="#">brands</a></li>
-                        <li><a href="#">trends</a></li>
-                        <li><a href="#">sale</a></li>
-                        <li><a href="#">style videos</a></li>
+                        <li><a href="{{asset('#')}}">new arrivals</a></li>
+                        <li><a href="{{asset('#')}}">men</a></li>
+                        <li><a href="{{asset('#')}}">women</a></li>
+                        <li><a href="{{asset('#')}}">accessories</a></li>
+                        <li><a href="{{asset('#')}}">kids</a></li>
+                        <li><a href="{{asset('#')}}">brands</a></li>
+                        <li><a href="{{asset('#')}}">trends</a></li>
+                        <li><a href="{{asset('#')}}">sale</a></li>
+                        <li><a href="{{asset('#')}}">style videos</a></li>
                     </ul>   
                 </div>
                 <div class="col-md-3 span1_of_4">
                     <h4>help</h4>
                     <ul class="f_nav">
-                        <li><a href="#">frequently asked  questions</a></li>
-                        <li><a href="#">men</a></li>
-                        <li><a href="#">women</a></li>
-                        <li><a href="#">accessories</a></li>
-                        <li><a href="#">kids</a></li>
-                        <li><a href="#">brands</a></li>
+                        <li><a href="{{asset('#')}}">frequently asked  questions</a></li>
+                        <li><a href="{{asset('#')}}">men</a></li>
+                        <li><a href="{{asset('#')}}">women</a></li>
+                        <li><a href="{{asset('#')}}">accessories</a></li>
+                        <li><a href="{{asset('#')}}">kids</a></li>
+                        <li><a href="{{asset('#')}}">brands</a></li>
                     </ul>   
                 </div>
                 <div class="col-md-3 span1_of_4">
                     <h4>account</h4>
                     <ul class="f_nav">
-                        <li><a href="account.html">login</a></li>
-                        <li><a href="register.html">create an account</a></li>
-                        <li><a href="#">create wishlist</a></li>
-                        <li><a href="checkout.html">my shopping bag</a></li>
-                        <li><a href="#">brands</a></li>
-                        <li><a href="#">create wishlist</a></li>
+                        <li><a href="{{asset('account.html')}}">login</a></li>
+                        <li><a href="{{asset('register.html')}}">create an account</a></li>
+                        <li><a href="{{asset('#')}}">create wishlist</a></li>
+                        <li><a href="{{asset('checkout.html')}}">my shopping bag</a></li>
+                        <li><a href="{{asset('#')}}">brands</a></li>
+                        <li><a href="{{asset('#')}}">create wishlist</a></li>
                     </ul>               
                 </div>
                 <div class="col-md-3 span1_of_4">
                     <h4>popular</h4>
                     <ul class="f_nav">
-                        <li><a href="#">new arrivals</a></li>
-                        <li><a href="#">men</a></li>
-                        <li><a href="#">women</a></li>
-                        <li><a href="#">accessories</a></li>
-                        <li><a href="#">kids</a></li>
-                        <li><a href="#">brands</a></li>
-                        <li><a href="#">trends</a></li>
-                        <li><a href="#">sale</a></li>
-                        <li><a href="#">style videos</a></li>
-                        <li><a href="#">login</a></li>
-                        <li><a href="#">brands</a></li>
+                        <li><a href="{{asset('#')}}">new arrivals</a></li>
+                        <li><a href="{{asset('#')}}">men</a></li>
+                        <li><a href="{{asset('#')}}">women</a></li>
+                        <li><a href="{{asset('#')}}">accessories</a></li>
+                        <li><a href="{{asset('#')}}">kids</a></li>
+                        <li><a href="{{asset('#')}}">brands</a></li>
+                        <li><a href="{{asset('#')}}">trends</a></li>
+                        <li><a href="{{asset('#')}}">sale</a></li>
+                        <li><a href="{{asset('#')}}">style videos</a></li>
+                        <li><a href="{{asset('#')}}">login</a></li>
+                        <li><a href="{{asset('#')}}">brands</a></li>
                     </ul>           
                 </div>
                 <div class="clearfix"></div>
@@ -293,7 +295,7 @@
                 <img src="images/cards.jpg" alt="" />
           </div>
           <div class="copyright text-center">
-                <p>© 2015 E Shop. All Rights Reserved | Design by   <a href="http://w3layouts.com">  W3layouts</a></p>
+                <p>© 2015 E Shop. All Rights Reserved | Design by   <a href="{{asset('http://w3layouts.com')}}"  W3layouts</a></p>
           </div>
         </div>
         </div>

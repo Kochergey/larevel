@@ -9,7 +9,7 @@ class PageController extends Controller
 {
  public function getIndex($url=null){
 
- 	$obj = Product::where ('url', $url)->first();
+ 	$obj = Products::where ('url', $url)->first();
  	return view ('page', compact('obj'));
  }
 }
