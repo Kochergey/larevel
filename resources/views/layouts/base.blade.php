@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+@section('styles')
 <title>E Shop | Home</title> 
 
 
@@ -298,4 +298,5 @@
         </div>
         </div>
 </body>
+@show
 </html>
