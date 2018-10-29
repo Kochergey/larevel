@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-@section('styles')
-<link href="{{asset('media/css/page.css')}}" rel="stylesheet" type="text/css" >
+
 <head>
 
 <title>E Shop | Home</title> 
@@ -24,6 +23,9 @@
     <script src="js/simpleCart.min.js"> </script>
 <!-- cart -->
 <link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" />
+@section('styles')
+<link href="{{asset('media/css/page.css')}}" rel="stylesheet" type="text/css" >
+@show
 </head>
 <body>
     <!-- header-section-starts -->
@@ -96,7 +98,7 @@
     
         <div class="collapse navbar-collapse" id="bs-exfample-navbar-collapse-1">
             <ul class="nav navbar-nav">
-            <li><a href="{{asset('index.html')}}" >Home</a></li>
+            <li><a href="{{asset('home')}}" >Home</a></li>
                 <li class="dropdown">
                     <a href="{{asset('#')}}" class="dropdown-toggle" data-toggle="dropdown">Men <b class="caret"></b></a>
                     <ul class="dropdown-menu multi-column columns-3">
@@ -207,8 +209,8 @@
                         </div>
                     </ul>
                 </li>
-                    <li><a href="{{asset('typography.html')}}">TYPO</a></li>
-                    <li><a href="{{'asset/contact'}}">CONTACT</a></li>
+                    <li><a href="{{asset('typography')}}">TYPO</a></li>
+                    <li><a href="{{asset('contacts')}}">CONTACT</a></li>
             </ul>
         </div>
         <!--/.navbar-collapse-->

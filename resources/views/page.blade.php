@@ -1,4 +1,5 @@
 @extends('layouts.base')
+@section('styles')
 @parent
 <link href="{{asset('media/css/page.css')}}" rel="stylesheet" type="text/css" >
 @endsection
