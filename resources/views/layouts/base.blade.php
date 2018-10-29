@@ -5,7 +5,7 @@
 
 <title>E Shop | Home</title> 
 
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 <link href="{{asset('css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -91,7 +91,7 @@
                 <span class="icon-bar"></span>
             </button>
                 <div class="logo">
-                    <h1><a href=  "{{asset('index.html')}}" <span>E</span> -Shop</a></h1>
+                    <h1><a href=  "{{asset('home')}}" <span>E</span> -Shop</a></h1>
                 </div>
         </div>
         <!--/.navbar-header-->
@@ -242,7 +242,7 @@
                     <h4>Shop</h4>
                     <ul class="f_nav">
                         <li><a href="{{asset('#')}}">new arrivals</a></li>
-                        <li><a href="{{asset('#')}}">men</a></li>
+                        <li><a href="{{asset('categories')}}">men</a></li>
                         <li><a href="{{asset('#')}}">women</a></li>
                         <li><a href="{{asset('#')}}">accessories</a></li>
                         <li><a href="{{asset('#')}}">kids</a></li>
@@ -302,5 +302,4 @@
         </div>
         </div>
 </body>
-@show
 </html>

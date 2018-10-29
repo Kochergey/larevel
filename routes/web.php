@@ -1,4 +1,4 @@
-j<?php
+<?php
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +17,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get(('/'), 'BaseController@getIndex');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('categories', 'TovarController@getAll');
 Route::get ('{url}', 'PageController@getIndex');
