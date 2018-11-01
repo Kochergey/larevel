@@ -16,6 +16,8 @@
                     <img src ='{{asset('uploads/'.$one->picture)}}'>
                     @endif
                     {!!$one->body!!}
+                    <a href="{{asset('basket/add/'.$one->id)}}" class ='add_cart' data id = '{{$one->id}}'>Добавить в корзину</a>
+                    
                     @endforeach
                     @endforeach
 
