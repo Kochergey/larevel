@@ -17,15 +17,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!--webfont-->
 <!-- for bootstrap working -->
-    <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-<!-- //for bootstrap working -->
-<!-- cart -->
-    <script src="js/simpleCart.min.js"> </script>
+    
 <!-- cart -->
 <link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" />
 @section('styles')
 <link href="{{asset('media/css/page.css')}}" rel="stylesheet" type="text/css" >
 @show
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<!-- //for bootstrap working -->
+<!-- cart -->
+    <script src="{{asset('js/simpleCart.min.js')}}"> </script>
+    <script src="{{asset('public/js/modal.js')}}"> </script>
 </head>
 <body>
     <!-- header-section-starts -->

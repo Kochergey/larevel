@@ -17,7 +17,7 @@
                     @endif
                     {!!$one->body!!}
                     <a href="{{asset('basket/add/'.$one->id)}}" class ='add_cart' data id = '{{$one->id}}'>Добавить в корзину</a>
-                    
+                    <a href="#" data-id="{{$one->id}}" class="prod_more">&nbsp; &nbsp;&nbsp; Подробнее</a>
                     @endforeach
                     @endforeach
 
