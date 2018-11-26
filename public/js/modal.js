@@ -34,7 +34,7 @@ $(function(){
 				.click(function(event){
 					event.preventDefault()
 					$(".modal-window").remove();
-					$("#jquery-overlay").remove();
+					$("#jquery-overlay").remove();/
 
 				}).appendTo(modal);
 		$.ajax({
